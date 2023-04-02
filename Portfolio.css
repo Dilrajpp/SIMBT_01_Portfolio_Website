@@ -1,0 +1,127 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('Backgroung_img.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.Raj_title {
+    font-size: 4.5rem;
+}
+.Raj_desc {
+    font-size: 2rem;
+}
+.Raj-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: 760px;
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.img_1 {
+    width: 16rem;
+    margin-bottom: 30px;
+}
+
+/* services section css */
+/* .servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  } */
+/* .servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+} */
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #282e28;
+}
+/* .servicesText:hover {
+    border: 1px solid #008000;
+} */
+
+/* display background color black on navbar scroll */
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* .card_img {
+    height: 65%;
+    width: 50%;
+} */
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+#about, #portfolio, #contact, #Resume_link {
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+.resume {
+    width: 50%;
+    margin-left: 27rem;
+    margin-top: 10px;
+}
+
+.resume1 {
+    /* width: 50%;
+    margin-left: 2rem; */
+}
+
+.resume2 {
+    /* width: 50%;
+    margin-left: 2rem; */
+    margin-right: 5rem;
+}
+
+button {
+    background-color: #18f98f;
+    border: none;
+    border-radius: 20px;
+    /* position: absolute; */
+    /* margin-left: 11rem; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 40%;
+    padding: 20px 50px;
+    font-size: 10px;
+    font-weight: bold;
+}
